@@ -1,8 +1,8 @@
 # Geoxml::Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/geoxml/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+Include this gem in your Rails applications to use the GeoXML libraries.
 
-TODO: Delete this and the text above, and describe your gem
+See the original JavaScript libraries at https://code.google.com/p/geoxml3/.
 
 ## Installation
 
@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installing the gem and running bundler, add the following line to your `app/assets/javascripts/application.js` file:
+```javascript
+//= require geoxml3
+```
 
 ## Development
 
