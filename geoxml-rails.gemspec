@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.summary       = "Inserts GeoXML3.js into the Rails asset pipeline."
-  spec.homepage      = "http://github.com/bcpearce/geoxml3-rails"
+  spec.homepage      = "http://github.com/bcpearce/geoxml-rails"
   spec.license       = "Apache 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
